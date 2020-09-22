@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smartOSC\\Source\\Repos\\CutePet\\CutePet\\CutePet.csproj": {}
+    "D:\\CutePet\\CutePet\\CutePet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smartOSC\\Source\\Repos\\CutePet\\CutePet\\CutePet.csproj": {
+    "D:\\CutePet\\CutePet\\CutePet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smartOSC\\Source\\Repos\\CutePet\\CutePet\\CutePet.csproj",
+        "projectUniqueName": "D:\\CutePet\\CutePet\\CutePet.csproj",
         "projectName": "CutePet",
-        "projectPath": "C:\\Users\\smartOSC\\Source\\Repos\\CutePet\\CutePet\\CutePet.csproj",
+        "projectPath": "D:\\CutePet\\CutePet\\CutePet.csproj",
         "packagesPath": "C:\\Users\\smartOSC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smartOSC\\Source\\Repos\\CutePet\\CutePet\\obj\\",
+        "outputPath": "D:\\CutePet\\CutePet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

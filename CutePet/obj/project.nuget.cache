@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1E9k5Jva66Y0pZ7ozpcCIxM9WSsz5KS3po34ATWT7DauH4RPuwTYfpxdf5CF3GXUuSfi2GANhdPcVQgHQkm6A==",
+  "dgSpecHash": "HS7UyGP6vGAOYwBbSPwXc13RXQG5XUyJ23AvYBRhNaTc7aGO7GvxmfeHwxAB8dmnSoA/UaAjJ0s3/f/pDJKm4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\smartOSC\\Source\\Repos\\CutePet\\CutePet\\CutePet.csproj",
+  "projectFilePath": "D:\\CutePet\\CutePet\\CutePet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smartOSC\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\smartOSC\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
