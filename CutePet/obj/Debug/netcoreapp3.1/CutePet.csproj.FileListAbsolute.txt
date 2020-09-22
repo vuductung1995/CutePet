@@ -44,3 +44,17 @@ D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.RazorTargetAssemblyInfo.cache
 D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.RazorTargetAssemblyInfo.cs
 D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\staticwebassets\CutePet.StaticWebAssets.Manifest.cache
 D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\staticwebassets\CutePet.StaticWebAssets.xml
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.deps.json
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.runtimeconfig.json
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.runtimeconfig.dev.json
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.dll
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.pdb
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.Views.dll
+D:\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.Views.pdb
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.csproj.CoreCompileInputs.cache
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.MvcApplicationPartsAssemblyInfo.cache
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.Views.pdb
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.dll
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.pdb
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.genruntimeconfig.cache
+D:\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.csproj.CopyComplete
