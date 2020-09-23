@@ -1,0 +1,9 @@
+D:\CutePet\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+D:\CutePet\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+D:\CutePet\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+D:\CutePet\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+D:\CutePet\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\CutePet\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\CutePet\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+D:\CutePet\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+D:\CutePet\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache

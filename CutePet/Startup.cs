@@ -1,11 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using CutePet.Service;
+using DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -26,6 +29,9 @@ namespace CutePet
         {
             services.AddControllersWithViews();
             services.AddScoped<ICharacterService, CharacterService>();
+            services.AddDbContext<WebContext>(
+                ob => ob.UseSqlServer(Configuration["Connection"],sso => sso.MigrationsAssembly(
+                        "DataAccess")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
