@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CutePet.Models;
 using CutePet.Service;
+using DataAccess.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,7 +30,7 @@ namespace CutePet.Controllers
             return Ok(_characterService.GetSingleCharacter(Id));
         }
         [Route("AddCharacter")]
-        public IActionResult AddCharacter(Character newCharacter)
+        public IActionResult AddCharacter(Users newCharacter)
         {
             return Ok(_characterService.AddCharacter(newCharacter));
         }

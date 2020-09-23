@@ -1,4 +1,6 @@
 ﻿using CutePet.Models;
+using DataAccess;
+using DataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -10,33 +12,37 @@ namespace CutePet.Service
 {
     public class CharacterService : ICharacterService
     {
-        private static List<Character> Characters = new List<Character>
+        private readonly WebContext _webContext;
+        public CharacterService(WebContext webContext)
         {
-            new Character()
-        };
-        public List<Character> AddCharacter(Character newCharacter)
-        {
-            Characters.Add(newCharacter);
-            return Characters;
+            _webContext = webContext;
         }
 
-        public List<Character> DeleteCharacter(int Id)
+        public List<Users> AddCharacter(Users newCharacter)
         {
-            var Character = from s in Characters
-                            where s.Id==Id
+            _webContext.users.Add(newCharacter);
+            _webContext.SaveChanges();
+            return _webContext.users.ToList();
+        }
+
+        public List<Users> DeleteCharacter(int Id)
+        {
+            var Character = from s in _webContext.users
+                            where s.UserId==Id
                             select s;
-            Characters.Remove(Character.First());
-            return Characters;
+            _webContext.users.Remove(Character.First());
+            _webContext.SaveChanges();
+            return _webContext.users.ToList();
         }
 
-        public List<Character> GetAllCharacter()
+        public List<Users> GetAllCharacter()
         {
-            return Characters;
+            return _webContext.users.ToList();
         }
 
-        public Character GetSingleCharacter(int Id)
+        public Users GetSingleCharacter(int Id)
         {
-            return Characters.FirstOrDefault(x => x.Id == Id);
+            return _webContext.users.FirstOrDefault(x => x.UserId == Id);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CutePet.Models;
+using DataAccess.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,9 @@ namespace CutePet.Service
 {
     public interface ICharacterService
     {
-        List<Character> GetAllCharacter();
-        Character GetSingleCharacter(int Id);
-        List<Character> AddCharacter(Character newCharacter);
-        List<Character> DeleteCharacter(int Id);
+        List<Users> GetAllCharacter();
+        Users GetSingleCharacter(int Id);
+        List<Users> AddCharacter(Users newCharacter);
+        List<Users> DeleteCharacter(int Id);
     }
 }
