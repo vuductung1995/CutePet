@@ -49,8 +49,6 @@ D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_s
 D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.csproj.CoreCompileInputs.cache
-D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.MvcApplicationPartsAssemblyInfo.cache
 D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.deps.json
 D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.runtimeconfig.json
 D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\CutePet.runtimeconfig.dev.json
@@ -82,3 +80,5 @@ D:\CutePet\CutePet\CutePet\bin\Debug\netcoreapp3.1\DataAccess.pdb
 D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.dll
 D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.pdb
 D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.genruntimeconfig.cache
+D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.csproj.CoreCompileInputs.cache
+D:\CutePet\CutePet\CutePet\obj\Debug\netcoreapp3.1\CutePet.MvcApplicationPartsAssemblyInfo.cache

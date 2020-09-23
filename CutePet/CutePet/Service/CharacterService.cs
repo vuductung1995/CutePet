@@ -1,4 +1,5 @@
-﻿using DataAccess;
+﻿using CutePet.Repository;
+using DataAccess;
 using DataAccess.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -9,39 +10,36 @@ using System.Threading.Tasks;
 
 namespace CutePet.Service
 {
-    public class CharacterService : ICharacterService
+    public class CharacterService : ICharacterService 
     {
-        private readonly WebContext _webContext;
-        public CharacterService(WebContext webContext)
+        private readonly ICharacterRepository _characterRepository ;
+        public CharacterService(ICharacterRepository characterRepository)
         {
-            _webContext = webContext;
+            _characterRepository = characterRepository;
         }
 
-        public List<Users> AddCharacter(Users newCharacter)
+        public async Task<Users> AddCharacter(Users newCharacter)
         {
-            _webContext.users.Add(newCharacter);
-            _webContext.SaveChanges();
-            return _webContext.users.ToList();
+            var result = _characterRepository.Add(newCharacter);
+            return await result;
         }
 
-        public List<Users> DeleteCharacter(int Id)
+        public async Task<Users> DeleteCharacter(int Id)
         {
-            var Character = from s in _webContext.users
-                            where s.UserId == Id
-                            select s;
-            _webContext.users.Remove(Character.First());
-            _webContext.SaveChanges();
-            return _webContext.users.ToList();
+            var result= _characterRepository.Delete(Id);
+            return await result;
         }
 
-        public List<Users> GetAllCharacter()
+        public async Task<List<Users>> GetAllCharacter()
         {
-            return _webContext.users.ToList();
+            var result=_characterRepository.GetAll();
+            return await result;
         }
 
-        public Users GetSingleCharacter(int Id)
+        public async Task<Users> GetSingleCharacter(int Id)
         {
-            return _webContext.users.FirstOrDefault(x => x.UserId == Id);
+            var result = _characterRepository.Get(Id);
+            return await result;
         }
     }
 }

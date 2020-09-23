@@ -8,9 +8,9 @@ namespace CutePet.Service
 {
     public interface ICharacterService
     {
-        List<Users> GetAllCharacter();
-        Users GetSingleCharacter(int Id);
-        List<Users> AddCharacter(Users newCharacter);
-        List<Users> DeleteCharacter(int Id);
+        Task<List<Users>> GetAllCharacter();
+        Task<Users> GetSingleCharacter(int Id);
+        Task<Users> AddCharacter(Users newCharacter);
+        Task<Users> DeleteCharacter(int Id);
     }
 }

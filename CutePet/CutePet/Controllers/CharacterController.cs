@@ -19,24 +19,24 @@ namespace CutePet.Controllers
             _characterService = characterService;
         }
         [Route("GetAll")]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            return Ok(_characterService.GetAllCharacter());
+            return Ok(await _characterService.GetAllCharacter());
         }
         [Route("GetSingle")]
-        public IActionResult GetSingle(int Id)
+        public async Task<IActionResult> GetSingle(int Id)
         {
-            return Ok(_characterService.GetSingleCharacter(Id));
+            return Ok(await _characterService.GetSingleCharacter(Id));
         }
         [Route("AddCharacter")]
-        public IActionResult AddCharacter(Users newCharacter)
+        public async Task<IActionResult> AddCharacter(Users newCharacter)
         {
-            return Ok(_characterService.AddCharacter(newCharacter));
+            return Ok(await _characterService.AddCharacter(newCharacter));
         }
         [Route("DeleteCharacter")]
-        public IActionResult DeleteCharacter(int Id)
+        public async Task<IActionResult> DeleteCharacter(int Id)
         {
-            return Ok(_characterService.DeleteCharacter(Id));
+            return Ok(await _characterService.DeleteCharacter(Id));
         }
     }
 }
