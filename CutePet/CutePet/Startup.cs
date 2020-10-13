@@ -2,8 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CutePet.Repository;
-using CutePet.Service;
 using DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,6 +12,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Repository;
+using Repository.Interface;
 
 namespace CutePet
 {
@@ -30,8 +30,8 @@ namespace CutePet
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddScoped<ICharacterService, CharacterService>();
             services.AddScoped<ICharacterRepository, CharacterRepository>();
+            services.AddScoped<IUnitOfWorks, UnitOfWork>();
             services.AddDbContext<WebContext>(
                 ob => ob.UseSqlServer(Configuration["Connection"], sso => sso.MigrationsAssembly(
                          "DataAccess")));

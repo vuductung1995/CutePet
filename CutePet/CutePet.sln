@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30404.54
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CutePet", "CutePet\CutePet.csproj", "{0E580EFB-F851-4C5E-B246-36A4D2156964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7B426392-724E-4D6A-B88D-D9AC4EACF559}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{7B426392-724E-4D6A-B88D-D9AC4EACF559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{C5A9DE5E-7599-4540-AD22-44666AADC76C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7B426392-724E-4D6A-B88D-D9AC4EACF559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B426392-724E-4D6A-B88D-D9AC4EACF559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B426392-724E-4D6A-B88D-D9AC4EACF559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A9DE5E-7599-4540-AD22-44666AADC76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A9DE5E-7599-4540-AD22-44666AADC76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A9DE5E-7599-4540-AD22-44666AADC76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A9DE5E-7599-4540-AD22-44666AADC76C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

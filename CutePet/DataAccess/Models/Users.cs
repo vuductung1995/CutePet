@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
@@ -11,10 +10,11 @@ namespace DataAccess.Models
     {
         [Key]
         public int UserId { set; get; }
-
         [StringLength(100)]
         public string Name { set; get; }
-        [StringLength(100)]
-        public string Old { get; set; }
+        public int Old { get; set; }
+        [StringLength(200)]
+        public string Adress { get; set; }
+
     }
 }

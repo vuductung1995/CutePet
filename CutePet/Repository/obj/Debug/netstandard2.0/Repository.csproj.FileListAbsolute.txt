@@ -1,0 +1,12 @@
+D:\CutePet\CutePet\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+D:\CutePet\CutePet\Repository\bin\Debug\netstandard2.0\Repository.dll
+D:\CutePet\CutePet\Repository\bin\Debug\netstandard2.0\Repository.pdb
+D:\CutePet\CutePet\Repository\bin\Debug\netstandard2.0\DataAccess.dll
+D:\CutePet\CutePet\Repository\bin\Debug\netstandard2.0\DataAccess.pdb
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.csprojAssemblyReference.cache
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.dll
+D:\CutePet\CutePet\Repository\obj\Debug\netstandard2.0\Repository.pdb

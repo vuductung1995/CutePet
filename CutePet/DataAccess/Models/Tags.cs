@@ -10,9 +10,16 @@ namespace DataAccess.Models
     public class Tags
     {
         [Key]
-        [StringLength(20)]
-        public string TagId { set; get; }
+        public int TagId { set; get; }
+        [Required]
+        public int ProductId { get; set; }
+        [Required]
+        public int UserId { get; set; }
         [Column(TypeName = "ntext")]
         public string Content { set; get; }
+        [ForeignKey("UserId")]
+        public virtual Users usr { get; set; }
+        public virtual Products pror { get; set; }
+        public virtual Orders ordr { get; set; }
     }
 }

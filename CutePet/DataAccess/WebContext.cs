@@ -15,6 +15,9 @@ namespace DataAccess
         }
         public DbSet<Users> users { set; get; }
         public DbSet<Tags> tags { set; get; }
+        public DbSet<Products> products { set; get; }
+        public DbSet<Orders> orders { set; get; }
+        public DbSet<OrdersList> ordersList { set; get; }
 
         // chuỗi kết nối với tên db
     }
